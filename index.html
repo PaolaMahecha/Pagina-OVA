@@ -1,0 +1,116 @@
+<html>
+	<head>
+	<title>OVA</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+		<script src="jquery.cycle2.carousel.min.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script type='text/javascript' src='menu_jquery.js'></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/interface.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+		<link rel="icon" type="image/png" href="images/favicon.ico" />
+	</head>
+		<script type="text/javascript">
+		
+		$(document).ready(
+			function()
+			{
+				$('#dock').Fisheye(
+					{
+						maxWidth: 50,
+						items: 'a',
+						itemsText: 'span',
+						container: '.dock-container',
+						itemWidth: 40,
+						proximity: 90,
+						halign : 'center'
+					}
+				)
+			}
+		);
+
+	</script>
+	<body>
+	<div class="medium-12 large-12 columns">
+		<div class="dock" id="dock">
+			 <div class="dock-container">
+			  <a class="dock-item" href="index.html"><img src="images/home.png" alt="home" /><span class="otto">Inicio</span></a> 
+			  <a class="dock-item" href="index.html"><img src="images/lectura.png" alt="contact" /><span class="otto">Lecturas</span></a> 
+			  <a class="dock-item" href="index.html"><img src="images/actividades.ico" alt="music" /><span class="otto">Actividades</span></a> 
+			  <a class="dock-item" href="index.html"><img src="images/autor.png" alt="video" /><span class="otto">Autores</span></a> 
+			   <a class="dock-item" href="index.html"><img src="images/multimedia.png" alt="portfolio" /><span class="otto">Multimedia</span></a> 
+			
+			</div>
+		</div>
+	</div>
+	<header>
+       <div class="banner">
+			<img src="images/Logo_unad.png" class="logo"/>
+			<input type="submit" value="Acceso a Campus Virtual" class="boton" />
+	   </div>	   
+	   <div class="texto" style="position: absolute; left: 90px; top: 140px; z-index:40;" >Objeto Virtual de Aprendizaje para los Estudiantes</div>
+    </header>
+	
+
+		
+
+	<div class="contenedor">
+	<section>
+       <article>
+          
+           <div class="cycle-slideshow" 
+				data-cycle-fx=carousel
+				data-cycle-timeout=3000
+				data-cycle-pause-on-hover="true">
+
+		       <img src="images/Ing_alimentos.png" class="cycle-slideshow"/>
+			   <!-- prev/next links -->
+			   <div class="cycle-prev"></div>
+			   <div class="cycle-next"></div>
+			
+			   <img src="images/Ing_industrial.png" class="cycle-slideshow"/>
+			   <img src="images/Ing_sistemas.png" class="cycle-slideshow"/>			
+			   <img src="images/Ing_teleco.png" class="cycle-slideshow"/>
+			   <img src="images/Ing_electro.png" class="cycle-slideshow"/>			
+		   </div>
+       </article>
+    </section>
+	</div>
+	
+	<div class="contenido">
+		<p class="titulo"><br><br>MISI&#211N <br></p>
+		  <img src="images/mision.png" class="mision"/>
+		<p class="parrafo"> <br>Contribuir a la educaci&#243n para todos a trav&#233s de la modalidad abierta, 
+		  a distancia y en ambientes virtuales de aprendizaje, mediante la acci&#243n pedag&#243gica, 
+		  la proyecci&#243n social, el desarrollo regional y la proyecci&#243n comunitaria, la inclusi&#243n, 
+		  la investigaci&#243n, la internacionalizaci&#243n y las innovaciones metodol&#243gicas y did&#225cticas, 
+		  con la utilizaci&#243n de las tecnolog&#237as de la informaci&#243n y de las comunicaciones para 
+		  fomentar y acompa&#241ar el aprendizaje aut&#243nomo, generador de cultura y esp&#237ritu emprendedor que, 
+		  en el marco de la sociedad global y del conocimiento, propicie el desarrollo econ&#243mico, 
+		  social y humano sostenible de las comunicaciones locales, regionales y globales con calidad, 
+		  eficiencia y equidad social. 
+		</p>  
+	</div>
+		<div class="contenido2">
+		<p class="titulo"><br><br>VISI&#211N <br></p>
+		  <img src="images/vision.png" class="vision"/>
+		<p class="parrafo"> <br><br><br>La UNAD se proyecta como una organizaci&#243n l&#237der en educaci&#243n abierta y a distancia,
+		reconocida a nivel nacional e internacional por la calidad innovadora y pertinencia de sus ofertas y 
+		servicios educativos y por el compromiso y aporte de su comunidad acad&#233mica el desarrollo humano 
+		sostenible de las comunidades locales y globales.
+		</p>  
+	</div>
+	<footer class="fullwidth ">
+	     <div id="gradient2">
+			<img src="images/unadblue.png" class="unadblue"/>
+			<p class="datos"><br>Sede Nacional: Calle 14 Sur No. 14 - 23<br>
+			PBX:(+57) 1 344 3700 Bogot&#225 D.C. Colombia<br>
+			L&#237nea nacional gratuita desde Colombia 018000115223<br>
+			Correo electr&#243nico: atencionalusuario@unad.edu.co<br>
+			Correo electr&#243nico de anticorrupci&#243n: anticorrupcion@unad.edu.co </div>
+	</footer>
+	</body>
+</html>
